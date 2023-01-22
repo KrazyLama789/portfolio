@@ -1,0 +1,10 @@
+.help::before {
+    content: "("
+}
+.help::after {
+    content: ")";
+}
+
+input[required]:invalid {
+    background-color: red;
+}
