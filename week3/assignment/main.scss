@@ -7,11 +7,11 @@ $accent-lines: #d0d0d0;
 
 h1 {
   text-align: center;
-  h1 a {
+  a {
     @include dark-color();
     font-size: 50px;
   }
-  h1 a:hover {
+  &:hover {
     @include dark-color();
   }
 }
@@ -23,10 +23,10 @@ a {
   text-decoration: none;
   color: #666;
   font-size: 20px;
-  a:active {
+  &:active {
     color: #deb887;
   }
-  a:hover {
+  &:hover {
     color: #00ddff;
   }
 }
@@ -34,7 +34,7 @@ a {
 p {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 600;
-  p a {
+  a {
     font-size: 16px;
   }
 }
