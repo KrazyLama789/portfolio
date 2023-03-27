@@ -1,0 +1,26 @@
+#card1 .contrast1 {
+  fill: pink;
+}
+#card1 .popfill {
+  fill: red;
+}
+#card1 .pop1 {
+  stroke-width: 2;
+  stroke: red;
+}
+#card1 .base {
+  fill: white;
+}
+
+#card2 .contrast2 {
+  stroke-width: 1;
+  stroke: white;
+}
+#card2 .pop2 {
+  fill: orange;
+}
+#card2 .base2 {
+  fill: black;
+}
+
+/*# sourceMappingURL=pattern.css.map */

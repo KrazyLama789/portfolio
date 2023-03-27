@@ -1,0 +1,34 @@
+$pop1: red;
+$pop2: orange;
+$base1: white;
+$contrast1: pink;
+$base2: black;
+$contrast2: white;
+
+#card1 {
+  .contrast1 {
+    fill: $contrast1;
+  }
+  .popfill {
+    fill: $pop1;
+  }
+  .pop1 {
+    stroke-width: 2;
+    stroke: $pop1;
+  }
+  .base {
+    fill: $base1;
+  }
+}
+#card2 {
+  .contrast2 {
+    stroke-width: 1;
+    stroke: $contrast2;
+  }
+  .pop2 {
+    fill: $pop2;
+  }
+  .base2 {
+    fill: $base2;
+  }
+}

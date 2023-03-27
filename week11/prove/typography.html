@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+        For example, say your developers have come up with the perfect amortization program and you want to install it
+        on
+        the
+        workgroup server for other systems to remotely mount and use. Because this is a third-party or custom
+        application,
+        the
+        logical place for it is in /usr/local/appname, possibly with a link to the program binary in the /usr/local/bin
+        directory (because that's in the path).
+    </p>
+
+    <section>
+        <p class="alert">
+            Alert
+        </p>
+        <p class="small">
+            If given a choice between putting the software package <span class="bold caps">bigprog</span> in the <span
+                class="bold">/usr/local/<span class="caps">bigprog</span></span> section and the
+            <span class="bold">/opt/<span class="caps">bigprog</span></span>
+            section, it's hard to choose. Read any relevant exam question closely--the main difference being that the
+            /opt section
+            is not considered to be sharable, whereas the <span class="bold">/usr</span> section is often shared and mounted by client systems.
+        </p>
+
+    </section>
+
+    <h2>
+        File Management Commands
+    </h2>
+
+    <p>
+        A major section of the 101 exam is dedicated to how to run commands properly with the right options and
+        arguments.
+        As a
+        good sysadmin, you'll be expected to know how to create, delete, edit, set permissions on, display, move, copy,
+        and
+        determine the type of files and programs.
+    </p>
+
+    <section>
+        <p class="alert">
+            Alert
+        </p>
+
+        <p class="small">
+            You must be able to pick proper and working commands out of lists of possibilities, type in appropriate
+            strings in
+            fill-in-the-blank boxes, and in general show that you've run the programs and utilities in question.
+        </p>
+    </section>
+
+
+    <h3>
+
+        Tips for working with Linux files
+    </h3>
+    <p>
+
+        Because most users and sysadmins come from a Windows or other OS background, a quick set of recommendations for
+        the
+        less-experienced can be of help here:
+    </p>
+    <ul>
+        <li>
+            <span class="bold">Hidden files aren't really hidden —</span>They just begin with a ., such as the .bashrc
+            and .bash_profile
+            files.
+            These
+            are
+            not viewable by normal users with conventional commands and switches and aren't deleted by commands such as
+            rm -f
+            *.*.
+
+        </li>
+        <li>
+            <span class="bold">Filenames can contain multiple periods or no period characters —</span>
+            The filenames this.is.a.long.file and
+            thisisalongfile
+            are perfectly reasonable and possible.
+        </li>
+        <li>
+            <span class="bold">Spaces in filenames look nice, but are a pain to type —</span>
+            Use an _ or a - instead of spaces because it's
+            neater and
+            easier than prefixing all spaces with a \. (To display a space in a filename, the system shows a space
+            prefixes with
+            a
+            backslash.)
+        </li>
+    </ul>
+</body>
+
+</html>
